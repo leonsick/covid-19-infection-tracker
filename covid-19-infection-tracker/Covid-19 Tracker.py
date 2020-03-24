@@ -28,7 +28,7 @@ ref = db.reference('/')
 
 #print(ref.get())
 #Getting the data from today
-browser = webdriver.Chrome('/Users/leonsick/Desktop/Developer/Webautomation Chrome/ChromeDriver/chromedriver')
+browser = webdriver.Chrome('PATH_TO_YOUR_WEBDRIVER')
 browser.get('https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html')
 
 #For Germany
